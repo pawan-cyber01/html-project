@@ -1,0 +1,99 @@
+h1{
+    text-align: center;
+}
+.navbar ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+    overflow: hidden;
+}
+.navbar a{
+    color:black;
+    width: 150px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    margin-left: 200px;
+}
+.navbar a:hover{
+    background-color: rgba(33, 32, 32, 0.597);
+}
+.navbar li{
+    float: left;
+}
+#sale{
+    background-color: black; 
+    padding: 2px;
+    margin-top: 2px;
+}
+#msale{
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    letter-spacing: 10px;
+}
+#shop{
+    background-image: url(beach.jpg);width: 800px;
+    height: 400px;text-align: center;padding: 100px;
+}
+h1{
+    font: italic;
+    font-size: 60px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#shopnow{
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
+    background-color: rgba(255, 255, 255, 0.462);
+    border: 3px solid;
+    
+}
+#div1{
+    height: 550px;width: 400px;
+    margin: 20px;
+    border: 5px solid;
+    text-align: center;
+}
+span{
+    font-size: 20px;
+    color: white;
+}
+#shop2{
+    background-image: url(beach.jpg);
+}
+#div2{
+    height: 550px;width: 400px;
+    margin: 20px;
+    border: 5px solid;
+    text-align: center;
+    float:right;margin-top: -580px;
+}
+#div3{
+    height: 550px;width: 400px;
+    margin: 20px;
+    border: 5px solid;
+    text-align: center;
+    float:right;margin-top: -580px;
+    margin-right: 550px;
+}
+#pcart{
+    font-size: 20px;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+#div4{
+    text-align: left;padding-left: 50px;
+}
+#scart{
+    font-size: 20px;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+#cart{
+    margin-left: 30px;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>create a new account</title>
+</head>
+<body style="background-color: black">
+    <center><div><img src="amazon.png" alt="amazon logo"></div></center>
+    <div style="margin-top: 50px;text-align: center;background-color: rgba(255, 255, 255, 0.51);margin-left: 600px;margin-right: 600px;border-radius: 5%;padding: 10px;border: 2px solid black;">
+        <h1>Sign Up!</h1>
+        <form id="myform" action="loginscreen.html">
+            <label for="name">Name</label>
+            <input type="text" id="name" onkeyup="validateName()" required>
+            <div class="message" id="nameMessage"></div> <br> <br>
+            <label for="email">Email</label>
+            <input type="email" id="email" onkeyup="validateEmail()" required>
+            <div class="message" id="EmailMessage"></div>
+            <br><br>
+            <label for="password">Password</label>
+            <input type="password" id="password" onkeyup="validatePassword()" required>
+            <div class="message" id="passwordMessage"></div>
+            <br><br>
+            <label for="cities">City</label>
+            <select name="cities" id="cities"> 
+            <option value="select">Select</option>
+            <option value="noida">Noida</option>
+            <option value="badaun">Badaun</option>
+            <option value="bareilly">Bareilly</option>
+            <option value="delhi">Delhi</option>
+            <option value="phagwara">Phagwara</option>
+            </select>
+            <br><br>
+            <label for="address">address:</label>
+            <textarea name="address" id="address" cols="20" rows="5"></textarea>
+            <br><br>
+            <label for="gender">gender</label>
+            <input type="radio" name="gender" value="male" id="male">male
+            <input type="radio" name="gender" value="female" id="female">female
+            <br><br>
+            <input type="submit" value="Submit form">           
+            </form>
+    <center><p><a href="loginscreen.html">login to am_zoom</a></p></center>
+    </div>
+    <script src="sign.js">
+                
+    </script>
+</body>
+</html>
+</body>
+</html>
